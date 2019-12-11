@@ -20,3 +20,5 @@ Route::get('/info', function () {
 
 Route::get('/test/hello', 'Test\TestController@hello');
 Route::get('/test/adduser', 'User\LoginController@addUser');
+
+Route::get('/wx', 'WeiXin\WxController@wx');
