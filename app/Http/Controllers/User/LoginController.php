@@ -19,7 +19,7 @@ class LoginController extends  Controller
         //使用密码函数
         $password = password_hash($pass, PASSWORD_BCRYPT);
 
-        
+
         $data = [
             'user_name' => 'mzz',
             'password' => $password,
